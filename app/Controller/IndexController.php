@@ -8,12 +8,13 @@ class IndexController extends AppController {
         // $this->set('posts', $this->Post->find('all'));
 		
 		// al terminar la función index, se va para la vista llamada igual que esta función, que en este caso es index
+		
     }
 	
 	function prueba() {
         
-		$suma = 10 + 15;		
-		$this->set('resultado', $suma);
+		// $suma = 10 + 15;		
+		// $this->set('resultado', $suma);
     }
 	
 	function hola() {

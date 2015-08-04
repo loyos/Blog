@@ -1,0 +1,17 @@
+
+
+
+Que hace cake?
+
+Cake primero busca el controlador (por defecto Index), luego la función dentro de dicho controlador (por defecto index), y una vez terminada la ejecucion de la funcion , automaticamente se dirigira a la Carpeta View/Nombre_del_controlador/nombre_de_la_funcion ejecutada, a buscar la vista y la mostrará.
+
+Rutas (URL)
+
+www.blog.com  -> www.blog.com/Index/index
+
+				donde Index es el controlador e index es la función dentro del controlador.
+				
+
+www.blog.com/Index/hola
+
+

@@ -1,8 +1,4 @@
 Hola esta es la vista prueba
-
-<?php
-	echo $resultado;
- ?>
  
 <div class = 'image'>
 
@@ -11,7 +7,3 @@ Hola esta es la vista prueba
 	?>
  
 </div>
-
-<?php 
-	echo $this->Html->link('Haz click aquí', array('controller' => 'index', 'action' => 'hola'));
-?>
